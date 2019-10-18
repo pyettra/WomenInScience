@@ -13,6 +13,8 @@
 		6CD287792355D16F00F76BDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CD287772355D16F00F76BDF /* Main.storyboard */; };
 		6CD2877B2355D17200F76BDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2877A2355D17200F76BDF /* Assets.xcassets */; };
 		6CD2877E2355D17200F76BDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2877C2355D17200F76BDF /* LaunchScreen.storyboard */; };
+		6CF67D6023574FA2004D7002 /* Mulher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF67D5F23574FA2004D7002 /* Mulher.swift */; };
+		6CF67D6223575043004D7002 /* ModelMulher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF67D6123575043004D7002 /* ModelMulher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,68 @@
 		6CD2877A2355D17200F76BDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CD2877D2355D17200F76BDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CD2877F2355D17200F76BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CF67D2323574CBF004D7002 /* SF-Pro-Display-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-HeavyItalic.otf"; sourceTree = "<group>"; };
+		6CF67D2423574CBF004D7002 /* SF-Compact-Text-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Text-Heavy.otf"; sourceTree = "<group>"; };
+		6CF67D2523574CBF004D7002 /* SF-Pro-Text-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-LightItalic.otf"; sourceTree = "<group>"; };
+		6CF67D2623574CBF004D7002 /* SF-Compact-Text-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Text-HeavyItalic.otf"; sourceTree = "<group>"; };
+		6CF67D2723574CBF004D7002 /* SF-Pro-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Medium.otf"; sourceTree = "<group>"; };
+		6CF67D2823574CC0004D7002 /* SF-Compact-Text-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Text-BoldItalic.otf"; sourceTree = "<group>"; };
+		6CF67D2923574CC0004D7002 /* SF-Compact-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Text-Bold.otf"; sourceTree = "<group>"; };
+		6CF67D2A23574CC0004D7002 /* SF-Pro-Text-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		6CF67D2B23574CC0004D7002 /* SF-Pro-Display-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Thin.otf"; sourceTree = "<group>"; };
+		6CF67D2C23574CC0004D7002 /* SF-Compact-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Display-Regular.otf"; sourceTree = "<group>"; };
+		6CF67D2D23574CC0004D7002 /* SF-Compact-Rounded-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Rounded-Light.otf"; sourceTree = "<group>"; };
+		6CF67D2E23574CC0004D7002 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		6CF67D2F23574CC0004D7002 /* SF-Pro-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Semibold.otf"; sourceTree = "<group>"; };
+		6CF67D3023574CC0004D7002 /* SF-Pro-Text-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Heavy.otf"; sourceTree = "<group>"; };
+		6CF67D3123574CC1004D7002 /* SF-Compact-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Display-Medium.otf"; sourceTree = "<group>"; };
+		6CF67D3223574CC1004D7002 /* SF-Compact-Text-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Text-MediumItalic.otf"; sourceTree = "<group>"; };
+		6CF67D3323574CC1004D7002 /* SF-Pro-Display-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		6CF67D3423574CC1004D7002 /* SF-Compact-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Display-Bold.otf"; sourceTree = "<group>"; };
+		6CF67D3523574CC1004D7002 /* SF-Compact-Display-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Display-Black.otf"; sourceTree = "<group>"; };
+		6CF67D3623574CC1004D7002 /* SF-Pro-Display-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-RegularItalic.otf"; sourceTree = "<group>"; };
+		6CF67D3723574CC1004D7002 /* SF-Compact-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Text-Semibold.otf"; sourceTree = "<group>"; };
+		6CF67D3823574CC1004D7002 /* SF-Pro-Display-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Ultralight.otf"; sourceTree = "<group>"; };
+		6CF67D3923574CC1004D7002 /* SF-Compact-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Text-Regular.otf"; sourceTree = "<group>"; };
+		6CF67D3A23574CC1004D7002 /* SF-Compact-Text-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Text-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		6CF67D3B23574CC1004D7002 /* SF-Pro-Text-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Light.otf"; sourceTree = "<group>"; };
+		6CF67D3C23574CC1004D7002 /* SF-Pro-Display-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-LightItalic.otf"; sourceTree = "<group>"; };
+		6CF67D3D23574CC2004D7002 /* SF-Compact-Display-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Display-Ultralight.otf"; sourceTree = "<group>"; };
+		6CF67D3E23574CC2004D7002 /* SF-Compact-Rounded-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Rounded-Thin.otf"; sourceTree = "<group>"; };
+		6CF67D3F23574CC2004D7002 /* SF-Pro-Display-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-BlackItalic.otf"; sourceTree = "<group>"; };
+		6CF67D4023574CC2004D7002 /* SF-Pro-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Light.otf"; sourceTree = "<group>"; };
+		6CF67D4123574CC2004D7002 /* SF-Compact-Rounded-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Rounded-Medium.otf"; sourceTree = "<group>"; };
+		6CF67D4223574CC2004D7002 /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; };
+		6CF67D4323574CC2004D7002 /* SF-Compact-Text-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Text-RegularItalic.otf"; sourceTree = "<group>"; };
+		6CF67D4423574CC2004D7002 /* SF-Pro-Text-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-MediumItalic.otf"; sourceTree = "<group>"; };
+		6CF67D4523574CC2004D7002 /* SF-Compact-Display-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Display-Thin.otf"; sourceTree = "<group>"; };
+		6CF67D4623574CC2004D7002 /* SF-Pro-Display-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-ThinItalic.otf"; sourceTree = "<group>"; };
+		6CF67D4723574CC3004D7002 /* SF-Compact-Text-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Text-LightItalic.otf"; sourceTree = "<group>"; };
+		6CF67D4823574CC3004D7002 /* SF-Compact-Rounded-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Rounded-Heavy.otf"; sourceTree = "<group>"; };
+		6CF67D4923574CC3004D7002 /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; };
+		6CF67D4A23574CC3004D7002 /* SF-Pro-Display-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Black.otf"; sourceTree = "<group>"; };
+		6CF67D4B23574CC3004D7002 /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
+		6CF67D4C23574CC3004D7002 /* SF-Pro-Display-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-BoldItalic.otf"; sourceTree = "<group>"; };
+		6CF67D4D23574CC3004D7002 /* SF-Pro-Text-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-HeavyItalic.otf"; sourceTree = "<group>"; };
+		6CF67D4E23574CC3004D7002 /* SF-Pro-Text-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-BoldItalic.otf"; sourceTree = "<group>"; };
+		6CF67D4F23574CC3004D7002 /* SF-Compact-Rounded-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Rounded-Ultralight.otf"; sourceTree = "<group>"; };
+		6CF67D5023574CC4004D7002 /* SF-Compact-Display-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Display-Heavy.otf"; sourceTree = "<group>"; };
+		6CF67D5123574CC4004D7002 /* SF-Compact-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Display-Semibold.otf"; sourceTree = "<group>"; };
+		6CF67D5223574CC4004D7002 /* SF-Compact-Rounded-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Rounded-Black.otf"; sourceTree = "<group>"; };
+		6CF67D5323574CC4004D7002 /* SF-Compact-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Display-Light.otf"; sourceTree = "<group>"; };
+		6CF67D5423574CC4004D7002 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+		6CF67D5523574CC4004D7002 /* SF-Pro-Display-UltralightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-UltralightItalic.otf"; sourceTree = "<group>"; };
+		6CF67D5623574CC4004D7002 /* SF-Compact-Text-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Text-Light.otf"; sourceTree = "<group>"; };
+		6CF67D5723574CC4004D7002 /* SF-Compact-Rounded-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Rounded-Semibold.otf"; sourceTree = "<group>"; };
+		6CF67D5823574CC5004D7002 /* SF-Pro-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Medium.otf"; sourceTree = "<group>"; };
+		6CF67D5923574CC5004D7002 /* SF-Compact-Rounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Rounded-Bold.otf"; sourceTree = "<group>"; };
+		6CF67D5A23574CC5004D7002 /* SF-Pro-Display-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-MediumItalic.otf"; sourceTree = "<group>"; };
+		6CF67D5B23574CC5004D7002 /* SF-Pro-Display-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Heavy.otf"; sourceTree = "<group>"; };
+		6CF67D5C23574CC5004D7002 /* SF-Compact-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Text-Medium.otf"; sourceTree = "<group>"; };
+		6CF67D5D23574CC5004D7002 /* SF-Pro-Text-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-RegularItalic.otf"; sourceTree = "<group>"; };
+		6CF67D5E23574CC5004D7002 /* SF-Compact-Rounded-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Rounded-Regular.otf"; sourceTree = "<group>"; };
+		6CF67D5F23574FA2004D7002 /* Mulher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mulher.swift; sourceTree = "<group>"; };
+		6CF67D6123575043004D7002 /* ModelMulher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelMulher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +101,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C4680BA235977B300341B36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6CF67D5F23574FA2004D7002 /* Mulher.swift */,
+				6CF67D6123575043004D7002 /* ModelMulher.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6C4680BB235977C400341B36 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6CD287732355D16F00F76BDF /* SceneDelegate.swift */,
+				6CD287772355D16F00F76BDF /* Main.storyboard */,
+				6CD2877C2355D17200F76BDF /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6C4680BC235977DD00341B36 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6CD287752355D16F00F76BDF /* ViewController.swift */,
+				6CD287712355D16F00F76BDF /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		6CD287652355D16F00F76BDF = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +148,81 @@
 		6CD287702355D16F00F76BDF /* mulheresDaComputacao */ = {
 			isa = PBXGroup;
 			children = (
-				6CD287712355D16F00F76BDF /* AppDelegate.swift */,
-				6CD287732355D16F00F76BDF /* SceneDelegate.swift */,
-				6CD287752355D16F00F76BDF /* ViewController.swift */,
-				6CD287772355D16F00F76BDF /* Main.storyboard */,
+				6C4680BC235977DD00341B36 /* Controller */,
+				6C4680BB235977C400341B36 /* View */,
+				6C4680BA235977B300341B36 /* Model */,
+				6CF67D2223574CAA004D7002 /* Resources */,
 				6CD2877A2355D17200F76BDF /* Assets.xcassets */,
-				6CD2877C2355D17200F76BDF /* LaunchScreen.storyboard */,
 				6CD2877F2355D17200F76BDF /* Info.plist */,
 			);
 			path = mulheresDaComputacao;
+			sourceTree = "<group>";
+		};
+		6CF67D2223574CAA004D7002 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6CF67D3523574CC1004D7002 /* SF-Compact-Display-Black.otf */,
+				6CF67D3423574CC1004D7002 /* SF-Compact-Display-Bold.otf */,
+				6CF67D5023574CC4004D7002 /* SF-Compact-Display-Heavy.otf */,
+				6CF67D5323574CC4004D7002 /* SF-Compact-Display-Light.otf */,
+				6CF67D3123574CC1004D7002 /* SF-Compact-Display-Medium.otf */,
+				6CF67D2C23574CC0004D7002 /* SF-Compact-Display-Regular.otf */,
+				6CF67D5123574CC4004D7002 /* SF-Compact-Display-Semibold.otf */,
+				6CF67D4523574CC2004D7002 /* SF-Compact-Display-Thin.otf */,
+				6CF67D3D23574CC2004D7002 /* SF-Compact-Display-Ultralight.otf */,
+				6CF67D5223574CC4004D7002 /* SF-Compact-Rounded-Black.otf */,
+				6CF67D5923574CC5004D7002 /* SF-Compact-Rounded-Bold.otf */,
+				6CF67D4823574CC3004D7002 /* SF-Compact-Rounded-Heavy.otf */,
+				6CF67D2D23574CC0004D7002 /* SF-Compact-Rounded-Light.otf */,
+				6CF67D4123574CC2004D7002 /* SF-Compact-Rounded-Medium.otf */,
+				6CF67D5E23574CC5004D7002 /* SF-Compact-Rounded-Regular.otf */,
+				6CF67D5723574CC4004D7002 /* SF-Compact-Rounded-Semibold.otf */,
+				6CF67D3E23574CC2004D7002 /* SF-Compact-Rounded-Thin.otf */,
+				6CF67D4F23574CC3004D7002 /* SF-Compact-Rounded-Ultralight.otf */,
+				6CF67D2923574CC0004D7002 /* SF-Compact-Text-Bold.otf */,
+				6CF67D2823574CC0004D7002 /* SF-Compact-Text-BoldItalic.otf */,
+				6CF67D2423574CBF004D7002 /* SF-Compact-Text-Heavy.otf */,
+				6CF67D2623574CBF004D7002 /* SF-Compact-Text-HeavyItalic.otf */,
+				6CF67D5623574CC4004D7002 /* SF-Compact-Text-Light.otf */,
+				6CF67D4723574CC3004D7002 /* SF-Compact-Text-LightItalic.otf */,
+				6CF67D5C23574CC5004D7002 /* SF-Compact-Text-Medium.otf */,
+				6CF67D3223574CC1004D7002 /* SF-Compact-Text-MediumItalic.otf */,
+				6CF67D3923574CC1004D7002 /* SF-Compact-Text-Regular.otf */,
+				6CF67D4323574CC2004D7002 /* SF-Compact-Text-RegularItalic.otf */,
+				6CF67D3723574CC1004D7002 /* SF-Compact-Text-Semibold.otf */,
+				6CF67D3A23574CC1004D7002 /* SF-Compact-Text-SemiboldItalic.otf */,
+				6CF67D4A23574CC3004D7002 /* SF-Pro-Display-Black.otf */,
+				6CF67D3F23574CC2004D7002 /* SF-Pro-Display-BlackItalic.otf */,
+				6CF67D5423574CC4004D7002 /* SF-Pro-Display-Bold.otf */,
+				6CF67D4C23574CC3004D7002 /* SF-Pro-Display-BoldItalic.otf */,
+				6CF67D5B23574CC5004D7002 /* SF-Pro-Display-Heavy.otf */,
+				6CF67D2323574CBF004D7002 /* SF-Pro-Display-HeavyItalic.otf */,
+				6CF67D4023574CC2004D7002 /* SF-Pro-Display-Light.otf */,
+				6CF67D3C23574CC1004D7002 /* SF-Pro-Display-LightItalic.otf */,
+				6CF67D5823574CC5004D7002 /* SF-Pro-Display-Medium.otf */,
+				6CF67D5A23574CC5004D7002 /* SF-Pro-Display-MediumItalic.otf */,
+				6CF67D2E23574CC0004D7002 /* SF-Pro-Display-Regular.otf */,
+				6CF67D3623574CC1004D7002 /* SF-Pro-Display-RegularItalic.otf */,
+				6CF67D4B23574CC3004D7002 /* SF-Pro-Display-Semibold.otf */,
+				6CF67D3323574CC1004D7002 /* SF-Pro-Display-SemiboldItalic.otf */,
+				6CF67D2B23574CC0004D7002 /* SF-Pro-Display-Thin.otf */,
+				6CF67D4623574CC2004D7002 /* SF-Pro-Display-ThinItalic.otf */,
+				6CF67D3823574CC1004D7002 /* SF-Pro-Display-Ultralight.otf */,
+				6CF67D5523574CC4004D7002 /* SF-Pro-Display-UltralightItalic.otf */,
+				6CF67D4223574CC2004D7002 /* SF-Pro-Text-Bold.otf */,
+				6CF67D4E23574CC3004D7002 /* SF-Pro-Text-BoldItalic.otf */,
+				6CF67D3023574CC0004D7002 /* SF-Pro-Text-Heavy.otf */,
+				6CF67D4D23574CC3004D7002 /* SF-Pro-Text-HeavyItalic.otf */,
+				6CF67D3B23574CC1004D7002 /* SF-Pro-Text-Light.otf */,
+				6CF67D2523574CBF004D7002 /* SF-Pro-Text-LightItalic.otf */,
+				6CF67D2723574CBF004D7002 /* SF-Pro-Text-Medium.otf */,
+				6CF67D4423574CC2004D7002 /* SF-Pro-Text-MediumItalic.otf */,
+				6CF67D4923574CC3004D7002 /* SF-Pro-Text-Regular.otf */,
+				6CF67D5D23574CC5004D7002 /* SF-Pro-Text-RegularItalic.otf */,
+				6CF67D2F23574CC0004D7002 /* SF-Pro-Text-Semibold.otf */,
+				6CF67D2A23574CC0004D7002 /* SF-Pro-Text-SemiboldItalic.otf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +296,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CF67D6023574FA2004D7002 /* Mulher.swift in Sources */,
 				6CD287762355D16F00F76BDF /* ViewController.swift in Sources */,
 				6CD287722355D16F00F76BDF /* AppDelegate.swift in Sources */,
 				6CD287742355D16F00F76BDF /* SceneDelegate.swift in Sources */,
+				6CF67D6223575043004D7002 /* ModelMulher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

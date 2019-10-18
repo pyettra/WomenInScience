@@ -1,0 +1,27 @@
+//
+//  ModelMulher.swift
+//  mulheresDaComputacao
+//
+//  Created by Pyettra Ferreira on 16/10/19.
+//  Copyright © 2019 Pyettra Ferreira. All rights reserved.
+//
+
+import Foundation
+import UIKit
+
+class ModelMulher {
+    static let instance = ModelMulher()
+    
+    let mulheres = [
+        Mulher(nome: "Ada Lovelace", texto: "In the mid-1800s, Ada Lovelace wrote the instructions for the first computer program. But mathematician and inventor Charles Babbage is often credited with the work because he invented the actual engine. Ada Lovelace's contributions to the field of computer science were not discovered until the 1950s. Ada described how codes could be created for the device to handle letters and symbols along with numbers. She also theorized a method for the engine to repeat a series of instructions, a process known as looping that computer programs use today.", image: "ada_lovelace"),
+        Mulher(nome: "Grace Murray Hopper", texto: "Hopper created the first computer language compiler tools to program the Harvard Mark I computer—IBM's computer that was often used for World War II efforts. Though it's noted in history that John von Neumann initiated the computer's first program, Hopper is the one who invented the codes to program it. One of the programming languages she pioneered, COBOL, is widely used today.", image: "grace_murray_hopper"),
+        Mulher(nome: "Vera Rubin", texto: "Rubin is the astrophysicist who confirmed the existence of dark matter in the atmosphere. She worked with astronomer Kent Ford in the '60s and '70s, when they discovered the reasoning behind stars' movement outside of the galaxy. She's dubbed a 'national treasure' but remains without a Nobel Peace Prize because, well, you can guess why.", image: "vera_rubin"),
+        Mulher(nome: "Alice Ball", texto: "Alice Ball was a young chemist at Kalihi Hospital in Hawaii who focused on Hansen's disease, a.k.a. leprosy. Her research sought to find a cure for the disease by figuring out how to inject chaulmoogra oil directly into the bloodstream. Topical treatments worked, but had side effects patients weren't interested in. Sadly, Ball became sick and returned home, where she died in 1916. Arthur Dean took over her study, and Ball became a memory—until a medical journey now referred to the 'Ball Method'. Her method was used for over two decades all over the world to cure the disease.", image: "alice_ball"),
+        Mulher(nome: "Esther Lederberg", texto: "Lederberg played a large part in determining how genes are regulated, along with the process of making RNA from DNA. She often collaborated with her husband Joshua Lederberg on their work on microbial genetics, but it was Esther who discovered lambda phage—a virus that infects E. coli bacteria. Despite their collaboration, her husband claimed the 1958 Nobel Prize for Physiology or Medicine for discoveries on how bacteria mate.", image: "esther_lederberg"),
+        Mulher(nome: "Chien Shiung Wu", texto: "Often compared to Marie Curie, Chien-Shiung Wu worked on the Manhattan Project, where she developed the process for separating uranium metal. In 1956, she conducted the Wu experiment that focused on electromagnetic interactions. After it yielded surprising results, Tsung-Dao Lee and Chen-Ning Yang, the physicists who originated a similar theory in the field, received credit for her work, winning the Nobel Prize for the experiment in 1957.", image: "chien_shiung_wu"),
+        Mulher(nome: "Hedy Lamarr", texto: "Hollywood actor Hedy Lamarr should actually be the person credited with the invention of wireless communication. During the second World War, Hedy worked closely with George Antheil to develop the idea of 'frequency hopping', which would have prevented the bugging of military radios. Unfortunately, the U.S. Navy ignored her patent —and later used her findings to develop new technologies. Years later, her patent was re-discovered by a researcher, which led to Lamarr receiving the Electronic Frontier Foundation Award shortly before her death in 2000.", image: "hedy_lamarr"),
+        Mulher(nome: "Jocelyn Bell", texto: "Jocelyn Bell Burnell discovered irregular radio pulses while working as a research assistant at Cambridge. After showing the discovery of the pulses to her advisor, the team worked together to uncover what they truly were: Neuron stars, AKA pulsars. Burnell received zero credit for her discovery—instead, her advisor Antony Hewish and Martin Ryle received the Nobel Prize for Physics in 1974.", image: "jocelyn_bell"),
+        Mulher(nome: "Katherine Johnson", texto: "You may recognize Johnson's name from the 2017 box-office hit Hidden Figures. Before her recognition in the film adaptation, Johnson was nicknamed a 'computer' for her intelligence. She discovered the exact path for the Freedom 7 spacecraft to successfully enter space for the first time in 1961 and later for the Apollo 11 mission to land on the moon in 1969. She often went unrecognized by her male colleagues and faced racial discrimination.", image: "katherine_johnson"),
+        Mulher(nome: "Rosalind Franklin", texto: "Franklin's X-ray photographs of DNA revealed the molecule's true structure as a double helix, which was a theory denounced by scientists James Watson and Francis Crick at the time. However, since Watson and Crick originally discovered the (single) helix, they ended up receiving a Nobel Prize for their research.", image: "rosalind_franklin")
+    ]
+}
